@@ -1,0 +1,117 @@
+﻿body{
+	background: #eee;
+	font-family: serif;
+}
+header{
+	background: #333;
+	height: 80px;
+}
+header ul li a{
+	text-decoration: none;
+}
+header ul{
+	margin-top:auto;
+	float:right;
+	margin-right:30px;
+	height:80px;
+	width:40%;
+}
+header ul li{
+	float:left;
+	margin-left:25px;
+	width:80px;
+}
+header ul li a:link{
+	color:gray;	 
+}
+header ul li a:visited{ 
+	color:white;
+}
+header ul li a:hover{ 
+	color:orange;
+}
+header ul li a:active{
+	color:blue;
+}
+
+.article{
+	background: #fff;
+	margin:20px;
+    box-shadow: 4px 4px 1px #666;	
+    padding:20px 15px;
+    line-height: 1.7em;
+    font-family: "微软雅黑";
+}
+.p1{
+	text-indent: 2em;
+}
+.h3{
+	color:#666;
+}
+.shm{
+	color:#555;
+	font-size: 12px;
+}
+#h2 li{
+	list-style: none;
+}
+#tp div{
+	width:240px;
+	height:290px;
+	margin-left:60px;
+	border:1px #999 solid;
+	padding-left:15px;
+	padding-bottom: 25px;
+	margin-bottom: 17px;
+}
+#tp div p{
+	 text-align: center;
+}
+#table{
+	width:900px;
+    border-collapse: collapse;
+}
+#table tr td,th{
+	border:1px solid gray;
+}
+th{
+	background: black;
+	color:white;
+	text-align: left;
+}
+#table tr:last-child{
+	background: gray;
+}
+aside h2{
+	border-left:3px solid gray;
+	padding-left:20px;
+	padding-top:10px;
+	padding-bottom: 10px;
+	 
+}
+form table{
+	width:360px;
+	margin:auto;
+	border-collapse: separate;
+	border-spacing: 6px 3px;
+}
+form table tr td:first-child{
+	text-align: right;
+}
+#button{
+	display: block;
+	background: #11f;
+	width:500px;
+	height: 40px;
+    margin:auto;
+}
+footer{
+	background: black;
+	color:white;
+	height: 40px;
+	text-align: center;
+	padding-top:10px;
+}
+.td{
+	color:grey;
+}

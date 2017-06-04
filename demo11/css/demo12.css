@@ -1,0 +1,115 @@
+table{
+	border-collapse: collapse;
+	font-size:20px;
+}
+table td,table th{
+
+	
+}
+table th{
+	text-align: left;
+	color:white;
+	background: black;
+}
+table .red{
+	color:red;
+}
+table tr:nth-child(odd){
+	background: gray;
+}
+body>div:first-of-type{
+	height:100px;
+}
+#lang{
+	margin-top:30px;
+	width:20px;
+	height:20px;
+	background: red;
+	border:1px solid red;
+	-webkit-transform: rotate(20deg);
+	transition:width 3s,height 3s,
+	border 3s,background 3s,-webkit-transform 3s;
+	
+}
+#lang:hover{
+	width:100px;
+	height:100px;
+	background: greenyellow;
+	border:10px solid yellow;
+	-webkit-transform: rotate(180deg);
+	transition:width 3s,height 3s,
+	background 3s,border 3s,-webkit-transform 3s;
+	
+}
+.banner {
+    position: relative;
+    overflow: hidden;
+    width: 300px;
+    margin-top: 50px;
+}
+
+.banner-container {
+    position: relative;
+    left: 0;
+    width: 300%;
+    height: 100%;
+    -webkit-transition: 0.5s left;
+    transition: 0.5s left;
+    letter-spacing: 0;
+    word-spacing: 0;
+    font-size: 0;
+}
+
+.banner-container li {
+    display: inline-block;
+    width: 300px;
+    height: 100px;
+    list-style: none;
+}
+
+.banner-container li:nth-child(1) {
+    background-color: #00f;
+}
+
+.banner-container li:nth-child(2) {
+    background-color: #0f0;
+}
+
+.banner-container li:nth-child(3) {
+    background-color: #f00;
+}
+
+.banner-controller {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.banner-controller a {
+    display: inline-block;
+    width: 28px;
+    height: 28px;
+    text-align: center;
+    text-decoration: none;
+    opacity: 0.5;
+    color: #cccccc;
+    background-color: #fff;
+    font-size: 16px;
+    line-height: 28px;
+}
+
+.banner-controller a:visited {
+    color: #cccccc;
+}
+
+#img1:target~.banner-container {
+    left: 0
+}
+
+#img2:target~.banner-container {
+    left: -100%;
+}
+
+#img3:target~.banner-container {
+    left: -200%;
+}

@@ -1,0 +1,97 @@
+body{
+	position: relative;
+	width:1000px;
+	 
+}
+#head img{
+	 margin:10px auto auto 100px;
+	 
+}
+p.lj1{
+	float:right;
+	width:250px;
+	background: #876;
+	margin:10px  0px auto auto;
+	
+}
+p.lj2{
+	background: #867;
+	text-align: center;
+	margin-top: 0px;
+}
+p.shm{
+	margin-top:0px;
+	text-align: center;
+	font-size:20px;
+}
+#main{
+	 
+	padding: 0 auto;
+}
+#main p.zt{
+	text-align: center;
+}
+div#side1{
+	float:left;
+	width:240px;
+	margin-left:95px;
+	margin-top:-20px;
+	height:780px;
+}
+#side1 h1,h2{
+	font-family:"仿宋";
+	color:gray;
+	
+}
+#zhy1{
+	border:1px dotted gray;
+    margin-left:340px;
+    margin-right: 380px;
+    margin-top:-10px;
+}
+#zhy2{
+	float:right;
+	width:270px;
+	margin-top:-225px;
+	margin-right: 100px;
+	border:1px dotted grey;
+	height:224px;
+	
+}
+#zhy3{
+	background:url(../img/images/jian2.gif) no-repeat;
+	width:556px;
+	height:100px;
+	margin-left:340px;
+	margin-top:10px;
+	border:2px solid black;	
+}
+#span1{
+	font-family: "arial black";
+	color:olivedrab;
+	font-size: 1.2em;
+}
+#zhy4 p.bt{
+	background: cornflowerblue;
+	width:558px;
+	margin-left: 340px;
+	margin-top:4px;
+}
+#zhy4 h4{
+	border-bottom: 1px red dotted;
+}
+#foot{
+	background: #6B8E23;
+	text-align: center;
+}
+#end{
+	text-align: center;
+}
+td p{
+	border-bottom: 1px red dotted;
+}
+a:link{color:blue;}
+a:visited{color:gold;}
+a:hover{color:red;}
+a:active{color:saddlebrown;}
+ 

@@ -1,0 +1,13 @@
+ #num_wrap{
+	list-style-type: none;
+	
+}
+#num_wrap li{
+	float:left;
+	width:30px;
+	height:30px;
+	margin:10px;
+	background: #345;
+	color:white;
+	text-align: center;
+}

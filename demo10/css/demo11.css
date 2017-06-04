@@ -1,0 +1,248 @@
+*{
+  width:100%;
+  margin:0;
+  padding:0;
+}
+body{
+  padding-bottom: 40px;
+}
+a{
+  text-decoration: none;
+/*  color:white;*/
+}
+header{
+  height:34px;
+  background: cornflowerblue;
+  padding-top:8px;
+}
+header p{
+  color:white;
+  font-size:16px;
+  text-align: center;
+/*  display: inline-block;*/
+}
+header div{
+  width:10px;
+  height:10px;
+  border:1px solid white;
+  transform: rotate(45deg);
+  display: inline-block;
+  float:left;
+  margin-top:-15px;
+  margin-left:20px;
+  border-right:none;
+  border-top: none;
+}
+header a{
+/*  float:right;*/
+  color:white;
+  display: block;
+  margin-top:-20px;
+  font-size:15px;
+  margin-left:35px;
+}
+nav{
+  width:auto;
+  display:flex;
+  font-size:20px;
+}
+nav div a{
+  display: block;
+  font-size:15px;
+  color:#555;
+  padding-bottom:10px;
+  text-align: center;
+}
+nav div{
+  border-bottom:4px solid white; 
+  height:27px;
+  padding-top:13px;
+}
+    
+nav div:hover{
+  border-bottom:4px solid green;
+}
+div.big-img img{
+	height: 200px;
+}
+div.label{
+  margin-top:10px;
+  display: flex;
+  justify-content: space-around;
+  height: 100px;
+}
+div.label div{
+  text-align: center;
+}
+div.label div img{
+  width:auto;
+  width:50px;
+}
+div.label div p{
+	margin-top:10px;
+	color:#333;
+}
+body>hr:first-of-type{
+	margin:30px 3%;
+	border:1px solid #ddd;
+	width:auto;
+	/*height: 1px;*/
+	/*background: #ddd;*/
+}
+div.fenlan{
+  margin-top:-10px;
+  width:auto;
+  display: flex;
+  text-align: center;
+  /*border:1px solid blue;*/
+  padding-right:20px;
+  height: 150px;
+}
+div.fenlan div p:first-of-type{
+  font-size:16px;
+  color:black;
+}
+div.fenlan div p:last-of-type{
+  font-size:14px;
+  color:#444;
+  
+}
+div.fenlan div{
+  margin-left:10px;
+/*  border:1px solid orange;*/
+}
+ 
+div.fenlan div img{
+ width:70px;
+ height: 85px;
+}
+div.shuxian{
+  margin-top:-5px;
+  width:5px;
+  height:130px;
+  background: #aaa;
+}
+div.mokuai{
+  margin:5px 15px;
+  width:auto;
+  /*border:1px solid green;*/
+
+}
+.mokuai-fenlan{
+  display:flex;
+}
+.mokuai-title{
+/*  display: none;*/
+  margin-left:20px;
+  font-size:20px;
+  color:#777;
+  font-weight: bolder;
+}
+.mokuai hr{
+	width:auto;
+  /*margin-top:10px;*/
+  margin:10px 2%;
+}
+div.mokuai img{
+/*  width:auto;*/
+  width:90px;
+  margin-top: 20px;
+}
+div.mokuai-img{
+  width:160px;
+  display: flex;
+  flex-flow: column;
+}
+div.mokuai-word>div{
+	margin-top:20px;
+}
+
+div.mokuai-word div div{
+  display: flex;
+  background: #eee;
+  margin:0px 5px 0px 0px;
+  /*text-align: right;*/
+  color:#777;
+  height:24px;
+  font-size:10px;
+  padding: 6px 15px;
+}
+div.mokuai-word div{
+	/*border:1px solid red;*/
+	text-align: center;
+}
+div.mokuai-word>div{
+  display:flex;
+  
+/*  margin:10px;*/
+}
+/*
+.title1{
+  width:auto;
+  height:100px;
+}
+*/
+body>hr:nth-of-type(2){
+  width:100%;
+  margin:10px 0;
+  height: 12px;
+  background: #ddd;
+  border:1px solid #ddd;
+}
+.title1 img{
+   width:120px;
+  height: 80px;
+}
+.title1{
+  display: flex;
+  margin:10px;
+  /*margin-bottom: 20px;*/
+}
+.title1 div p:first-child{
+  font-size: 20px;
+  color:black;
+  margin-left:10px;
+}
+.title1 div p:last-child{
+  font-size:15px;
+  color:gray;
+  margin:20px auto auto 10px;
+}
+.hrr{
+  margin-top:10px;
+  height:1px;
+  background: #ccc;
+}
+.title3{
+  /*border:1px solid red;*/
+  width:auto;
+  padding:0 10px;
+}
+.title3 p:first-child{
+  font-size:20px;
+  color:#555;
+  margin-bottom:10px;
+}
+.title3 div{
+  display: flex;
+}
+.title3 img{
+  width:90px;
+  height:80px ;
+  margin-right: 10px;
+}
+.title3 p:last-child{
+  font-size:15px;
+  color:#bbb;
+  margin-top:10px;
+}
+
+
+
+    
+    
+    
+    
+    
+    
+    

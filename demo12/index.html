@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<style>
+			 *{
+			 	margin:0;
+			 	padding:0;
+			 }
+			 div{
+			 	border:1px solid red;
+			 	width:150px;
+			 	margin:10px;
+			 }
+			 .child1{
+			 	height:120px;
+			 }
+			 .child2{
+			 	height: 100px;
+			 }
+			 .child3{
+			 	height: 40px;
+			 }
+			 .child4{
+			 	height: 200px;
+			 	border:1px solid blue;
+			 }
+			 @media screen and (min-width:640px){
+			 	body{
+			 		display: flex;
+			 		flex-flow: row wrap;
+			 		align-items: center;
+			 		justify-content: space-between;
+			 	}
+			 	.child1{
+			 		order:1;
+			 	}
+			 	.child2{
+			 		order:2;
+			 	}
+			 	.child3{
+			 		order:3;
+			 	}
+			 	.child4{
+			 		order:4;
+			 	}
+			 }
+			 @media screen and (max-width:640px){
+			 	body{
+			 	display:flex;
+			 	align-items: flex-start;
+			 	flex-flow: row wrap;
+			 	}
+			 	
+			  
+			 	.child1{
+			 		order:2;
+			 	}
+			 	.child2{
+			 		order:3;
+			 	}
+			 	.child3{
+			 		order:4;
+			 	}
+			 	.child4{
+			 		order:1;
+			 	}
+			 }
+		</style>
+	</head>
+	<body>
+
+			<div class="child1">1</div>
+			<div class="child2">2</div>
+			<div class="child3">3</div>	
+			<div class="child4">4</div>		
+
+	</body>
+</html>
